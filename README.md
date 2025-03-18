@@ -1,0 +1,2 @@
+# aliases
+Comandos para CMD
