@@ -19,12 +19,11 @@ DOSKEY phpunit=vendor\bin\phpunit $*
 DOSKEY phpstan=vendor\bin\phpstan $*
 
 DOSKEY a=php artisan $*
-DOSKEY aserve=php artisan serve --host 192.168.251.170
-DOSKEY mobile-criadores-serve="%USERPROFILE%\aliases\app-criadores-backend-serve.bat"
+DOSKEY aserve=php artisan serve --host 0.0.0.0
 
-DOSKEY buscafilhote-serve=cd /d "C:\apache\htdocs\buscafilhote-back" ^&^& php artisan serve --host 192.168.251.170
+DOSKEY buscafilhote-serve=cd /d "C:\apache\htdocs\buscafilhote-back" ^&^& php artisan serve --host 0.0.0.0
 
-DOSKEY criadores-mobile-serve=cd /d "C:\apache\htdocs\app-criadores-backend" ^&^& php artisan serve --host 192.168.251.170
+DOSKEY criadores-mobile-serve=cd /d "C:\apache\htdocs\app-criadores-backend" ^&^& php artisan serve --host 0.0.0.0
 
 DOSKEY ############_npm_commands_############=""
 DOSKEY nr=npm run $*
