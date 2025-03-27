@@ -24,6 +24,7 @@ DOSKEY aserve=php artisan serve --host 0.0.0.0
 DOSKEY buscafilhote-serve=cd /d "C:\apache\htdocs\buscafilhote-back" ^&^& php artisan serve --host 0.0.0.0
 
 DOSKEY criadores-mobile-serve=cd /d "C:\apache\htdocs\app-criadores-backend" ^&^& php artisan serve --host 0.0.0.0
+DOSKEY criadores-mobile="%USERPROFILE%\aliases\criadores-mobile.bat"
 
 DOSKEY ############_npm_commands_############=""
 DOSKEY nr=npm run $*
