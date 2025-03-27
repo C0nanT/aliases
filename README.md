@@ -28,4 +28,5 @@ composer7 --version
 ```
 
 #### Créditos: 
-> https://github.com/thiagobrunodev
+A base da desse projeto foi criada pelo [Thiago](https://github.com/thiagobrunodev).<br>
+Estou adicionando novas funcionalidades aos poucos. Sinta-se à vontade para colaborar também!
