@@ -15,8 +15,14 @@ Abra o CMD como administrador e execute o comando abaixo para criar a chave do R
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Command Processor" /f
 ```
 ```bash
-reg add "HKEY_CURRENT_USER\Software\Microsoft\Command Processor" /v AutoRun /d "%USERPROFILE%\aliases\aliases.bat" /f
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Command Processor" /v AutoRun /d "\"%USERPROFILE%\aliases\aliases.bat\"" /f
+```bash
+reg query "HKEY_CURRENT_USER\Software\Microsoft\Command Processor" /v AutoRun
 ```
+Deve aparecer o caminho dessa forma:<br>
+![image](https://github.com/user-attachments/assets/2d8f74e4-64e9-4b5d-aeb5-e4280119c611)
+
+
 
 ### 3. Testar alguns comandos
 Abra o CMD e execute os comandos
