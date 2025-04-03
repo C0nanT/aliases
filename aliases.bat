@@ -16,7 +16,7 @@ DOSKEY php7=C:\apache\php74\php.exe $*
 DOSKEY composer7=C:\apache\php74\php.exe C:\ProgramData\ComposerSetup\bin\composer.phar $*
 DOSKEY pest=vendor\bin\pest $*
 DOSKEY phpunit=vendor\bin\phpunit $*
-DOSKEY phpstan=vendor\bin\phpstan $*
+DOSKEY phpstan=vendor\bin\phpstan analyse src tests --level $*
 
 DOSKEY a=php artisan $*
 DOSKEY aserve=php artisan serve --host 0.0.0.0
@@ -30,37 +30,40 @@ DOSKEY ############_npm_commands_############=""
 DOSKEY nr=npm run $*
 
 DOSKEY ############_project_directories_############=""
-DOSKEY cgestao=code "C:\apache\htdocs\servicos"
-DOSKEY zgestao=zed "C:\apache\htdocs\servicos"
+DOSKEY cgestao=code "C:\apache\htdocs\servicos"$Texit
+DOSKEY zgestao=zed "C:\apache\htdocs\servicos"$Texit
 
-DOSKEY ccriadores=code "C:\apache\htdocs\criadores"
-DOSKEY zcriadores=zed "C:\apache\htdocs\criadores"
+DOSKEY ccriadores=code "C:\apache\htdocs\criadores"$Texit
+DOSKEY zcriadores=zed "C:\apache\htdocs\criadores"$Texit
 
-DOSKEY ccartorios=code "C:\apache\htdocs\cartorios"
-DOSKEY zcartorios=zed "C:\apache\htdocs\cartorios"
+DOSKEY ccartorios=code "C:\apache\htdocs\cartorios"$Texit
+DOSKEY zcartorios=zed "C:\apache\htdocs\cartorios"$Texit
 
-DOSKEY csite-criadores=code "C:\apache\htdocs\criadores\site-criadores"
-DOSKEY zsite-criadores=zed "C:\apache\htdocs\criadores\site-criadores"
-
-
-DOSKEY cbusca-front=code "C:\apache\htdocs\buscafilhote-front
-DOSKEY zbusca-front=zed "C:\apache\htdocs\buscafilhote-front"
+DOSKEY csite-criadores=code "C:\apache\htdocs\criadores\site-criadores"$Texit
+DOSKEY zsite-criadores=zed "C:\apache\htdocs\criadores\site-criadores"$Texit
 
 
-DOSKEY cbusca-back=code "C:\apache\htdocs\buscafilhote-back"
-DOSKEY zbusca-back=zed "C:\apache\htdocs\buscafilhote-back"
+DOSKEY cbusca-front=code "C:\apache\htdocs\buscafilhote-front"$Texit
+DOSKEY zbusca-front=zed "C:\apache\htdocs\buscafilhote-front"$Texit
 
 
-DOSKEY cgit-auto-pull=code "C:\apache\htdocs\git-auto-pull"
-DOSKEY zgit-auto-pull=zed "C:\apache\htdocs\git-auto-pull"
+DOSKEY cbusca-back=code "C:\apache\htdocs\buscafilhote-back"$Texit
+DOSKEY zbusca-back=zed "C:\apache\htdocs\buscafilhote-back"$Texit
 
 
-DOSKEY cchat-back=code "C:\apache\htdocs\chat-backend"
-DOSKEY zchat-back=zed "C:\apache\htdocs\chat-backend"
+DOSKEY cgit-auto-pull=code "C:\apache\htdocs\git-auto-pull"$Texit
+DOSKEY zgit-auto-pull=zed "C:\apache\htdocs\git-auto-pull"$Texit
 
 
-DOSKEY ccriadores-mobile-back=code "C:\apache\htdocs\app-criadores-backend"
-DOSKEY zcriadores-mobile-back=zed"C:\apache\htdocs\app-criadores-backend"
+DOSKEY cchat-back=code "C:\apache\htdocs\chat-backend"$Texit
+DOSKEY zchat-back=zed "C:\apache\htdocs\chat-backend"$Texit
 
-DOSKEY zcriadores-mobile-front=zed "C:\apache\htdocs\app-criadores-frontend"
-DOSKEY ccriadores-mobile-front=code "C:\apache\htdocs\app-criadores-frontend"
+
+DOSKEY ccriadores-mobile-back=code "C:\apache\htdocs\app-criadores-backend"$Texit
+DOSKEY zcriadores-mobile-back=zed"C:\apache\htdocs\app-criadores-backend"$Texit
+
+DOSKEY zcriadores-mobile-front=zed "C:\apache\htdocs\app-criadores-frontend"$Texit
+DOSKEY ccriadores-mobile-front=code "C:\apache\htdocs\app-criadores-frontend"$Texit
+
+DOSKEY zscanntech=zed "C:\apache\htdocs\Scanntech"$Texit
+DOSKEY cscanntech=code "C:\apache\htdocs\Scanntech"$Texit
